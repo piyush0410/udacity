@@ -18,14 +18,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:textSize="20sp"
+        android:text="@string/nanodegree_title"
         android:textColor="@color/colorPrimary"
-        android:text="@string/nanodegree_title"/>
+        android:textSize="20sp"/>
 
     <android.support.v7.widget.RecyclerView
-        android:layout_width="wrap_content"
+        android:id="@+id/recycler_view"
+        android:layout_width="180dp"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/title" />
+        android:layout_marginTop="16dp"/>
 
 </RelativeLayout>
